@@ -1,0 +1,12 @@
+#files not supposed to be checked in
+#Terraform
+*.tfstate
+*.tfstate.*
+*.terraform
+
+#Eclipse settings
+*.settings
+*.project
+
+#maven
+*/target/*
