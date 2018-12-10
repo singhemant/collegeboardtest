@@ -1,5 +1,5 @@
-The project is a demonstration of AWS serverless arhitecture based on AWS
-dynamoDB, lambda and api-gateway
+# aws-serverless-api
+Simple HTTP Restful API to read/retrieve data from dynamoDB using AWS API-Gateway &amp; Lambda Function (java8)
 
 Deployment Steps:
 
