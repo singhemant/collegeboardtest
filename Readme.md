@@ -3,8 +3,8 @@ Simple HTTP Restful API to read/retrieve data from dynamoDB using AWS API-Gatewa
 
 Deployment Steps:
 
-a. Install terraform from "https://www.terraform.io/downloads.html"
-b. Unzip the project and Initialize terraform
+- Install terraform from "https://www.terraform.io/downloads.html"
+- Unzip the project and Initialize terraform
         - cd \collegeboardtest\terraform\infrastructure
         - terraform init -backend-config=..\backend-config\backend.tf -var-file=..\vars.tfvars
         - terraform apply -var-file=..\vars.tfvars --auto-approve
